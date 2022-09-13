@@ -397,7 +397,7 @@ ul{
 
 ul a{
     width: 110px;
-    displey: flex;
+    display: flex;
     flex-direction: column;
     text-align : center;
 }
