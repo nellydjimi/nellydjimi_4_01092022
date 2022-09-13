@@ -397,6 +397,9 @@ ul{
 
 ul a{
     width: 110px;
+    displey: flex;
+    flex-direction: column;
+    text-align : center;
 }
 
 .title{
