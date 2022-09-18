@@ -357,14 +357,12 @@ section {
 
 li{
     list-style-type: none!important;
-    font-size: 15px;
 }
 ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: inherit;
-    margin: 4rem;
     margin-top: inherit;
     margin-bottom: inherit;
     padding-bottom: 1rem;
@@ -396,6 +394,7 @@ ul{
 }
 
 ul a{
+    font-size: 13px;
     width: 110px;
     display: flex;
     flex-direction: column;
@@ -443,10 +442,14 @@ ul a{
     padding-right: 50px;
 }
 
+.img{
+    width: 110px;
+    height: 110px;
+}
 /********************************     MEDIA QUERY  **************************/
 @media (min-width: 768px) {
 
-    
+
 
     .site-navigation {
         position: absolute;
