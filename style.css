@@ -447,6 +447,11 @@ ul a{
     height: 110px;
 }
 
+.img-responsive{
+    width: 230px;
+    height: 230px;
+}
+
 
 /********************************     MEDIA QUERY  **************************/
 @media (min-width: 768px) {
