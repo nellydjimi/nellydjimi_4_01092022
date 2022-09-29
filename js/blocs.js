@@ -187,7 +187,7 @@ function addLightBoxSwipeSupport() {
         },
         threshold: 0
     })
-}
+
 $(document).ready(function() {
     $("#scroll-hero").click(function(t) {
         t.preventDefault(), $("html,body").animate({
@@ -201,3 +201,4 @@ $(document).ready(function() {
 }), $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 });
+}
