@@ -22,5 +22,10 @@
 	mail($to,$email_subject,$email_body,$headers); // Post message
 	return true;		
 
-	header('Cache-Control: max-age=86400');
+	Header("Cache-Control: must-revalidate");
+
+ $offset = 60 * 60 * 24 * 3;
+ $ExpStr = "Expires: " . gmdate("D, d M Y H:i:s", time() + $offset) . " GMT";
+ Header($ExpStr);
+	
 ?>
