@@ -412,9 +412,6 @@ ul a{
     font-weight: 600;
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
 
 .form{
     display: flex;
