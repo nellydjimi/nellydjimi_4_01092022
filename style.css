@@ -436,9 +436,17 @@ ul a{
     padding-right: 50px;
 }
 
-.img{
-    width:115px;
-    height: 115px;
+.img1{
+    width:106px;
+    height: 93px;
+}
+.img2{
+    width:106px;
+    height: 92px;
+}
+.img3{
+    width:107px;
+    height: 75px;
 }
 
 .img-responsive{
