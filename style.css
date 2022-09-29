@@ -290,6 +290,8 @@ a:hover {
 .navbar-brand img {
     margin: 0 5px 0 0;
     display: inline;
+    width: 250px;
+    height: 50px;
 }
 
 
